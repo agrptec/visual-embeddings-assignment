@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+data/
+checkpoints/
+
+*.bak
+*.amp.bak
+*.before_fn
+
+debug_batch.py
+
+.DS_Store

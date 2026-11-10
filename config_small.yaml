@@ -1,0 +1,18 @@
+seed: 42
+
+data_dir: data
+train_size: 45000
+val_size: 5000
+
+encoder: resnet18
+projection_dim: 128
+
+batch_size: 64
+temperature: 0.2
+epochs: 8
+
+learning_rate: 0.0003
+weight_decay: 0.0001
+num_workers: 2
+
+ssl_samples: 5000

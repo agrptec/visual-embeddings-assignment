@@ -1,0 +1,2 @@
+experiment,split,temperature,batch_size,probe_samples,knn_accuracy,linear_accuracy
+temp_01_fp32,val,0.1,64,5000,43.88,51.3

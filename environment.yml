@@ -1,0 +1,21 @@
+name: visual-embeddings
+
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - pytorch-cuda=12.1
+  - mkl<2025
+  - intel-openmp<2025
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - pandas
+  - pip
